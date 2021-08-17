@@ -53,7 +53,7 @@ Coded by www.creative-tim.com
       </div>
       <div class="sidebar-wrapper">
         <ul class="nav">
-          <li>
+          <li class="active ">
             <a href="./dashboard.html">
               <i class="nc-icon nc-bank"></i>
               <p>Dashboard</p>
@@ -62,25 +62,19 @@ Coded by www.creative-tim.com
           <li>
             <a href="./icons.html">
               <i class="nc-icon nc-diamond"></i>
-              <p>Icons</p>
-            </a>
-          </li>
-          <li class="active ">
-            <a href="./map.html">
-              <i class="nc-icon nc-pin-3"></i>
-              <p>Maps</p>
+              <p>เปลี่ยนพื้นหลัง</p>
             </a>
           </li>
           <li>
-            <a href="./notifications.html">
-              <i class="nc-icon nc-bell-55"></i>
-              <p>Notifications</p>
+            <a href="./map.html">
+              <i class="nc-icon nc-pin-3"></i>
+              <p>จัดการสินค้า</p>
             </a>
           </li>
           <li>
             <a href="./user.html">
               <i class="nc-icon nc-single-02"></i>
-              <p>User Profile</p>
+              <p>จัดการหน้าข่าวสาร</p>
             </a>
           </li>
           <li>
@@ -172,37 +166,57 @@ Coded by www.creative-tim.com
       <div class="content">
         <div class="row">
           <div class="col-md-12">
-            <div class="card ">
-              <div class="card-header ">
-                Google Maps
+            <div class="card">
+              <div class="card-header">
+                <h4 class="card-title text-danger">จัดการสินค้า</h4>
               </div>
-              <div class="card-body ">
-                <div id="map" class="map"></div>
+              <div class="card-body">
+                <div class="table-responsive">
+                  <table class="table">
+                    <thead class="text-primary">
+                      <th>
+                        รูปภาพ
+                      </th>
+                      <th>
+                        ชื่อสินค้า
+                      </th>
+                      <th>
+                        ประเภท
+                      </th>
+                      <th>
+                        ราคา
+                      </th>
+                        <th>
+                          <a href="..">
+                            <u class="text-danger">เพิ่มสินค้า</u>
+                        </th>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>
+                          Dakota Rice
+                        </td>
+                        <td>
+                          Niger
+                        </td>
+                        <td>
+                          Oud-Turnhout
+                        </td>
+                        <td>
+                          $36,738
+                        </td>
+                        <th>
+                          <a href="..">
+                            <u class="text-danger">แก้ไขสินค้า</u>
+                        </th>
+                    </tbody>
+                  </table>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <footer class="footer footer-black  footer-white ">
-        <div class="container-fluid">
-          <div class="row">
-            <nav class="footer-nav">
-              <ul>
-                <li><a href="https://www.creative-tim.com" target="_blank">Creative Tim</a></li>
-                <li><a href="https://www.creative-tim.com/blog" target="_blank">Blog</a></li>
-                <li><a href="https://www.creative-tim.com/license" target="_blank">Licenses</a></li>
-              </ul>
-            </nav>
-            <div class="credits ml-auto">
-              <span class="copyright">
-                © <script>
-                  document.write(new Date().getFullYear())
-                </script>, made with <i class="fa fa-heart heart"></i> by Creative Tim
-              </span>
-            </div>
-          </div>
-        </div>
-      </footer>
     </div>
   </div>
   <!--   Core JS Files   -->
