@@ -81,138 +81,78 @@
 
 
     <!-- Start Banner Hero -->
-    <div id="template-mo-zay-hero-carousel" class="carousel slide" data-bs-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="0" class="active"></li>
-            <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="1"></li>
-            <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <div class="container">
-                    <div class="row p-5">
-                        <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
-                            <img class="img-fluid" src="./assets/img/park.jpg" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="container">
-                    <div class="row p-5">
-                        <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
-                            <img class="img-fluid" src="./assets/img/park2.jpg" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="container">
-                    <div class="row p-5">
-                        <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
-                            <img class="img-fluid" src="./assets/img/product_1.jpg" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <a class="carousel-control-prev text-decoration-none w-auto ps-3" href="#template-mo-zay-hero-carousel" role="button" data-bs-slide="prev">
-            <i class="fas fa-chevron-left text-danger"></i>
-        </a>
-        <a class="carousel-control-next text-decoration-none w-auto pe-3" href="#template-mo-zay-hero-carousel" role="button" data-bs-slide="next">
-            <i class="fas fa-chevron-right"></i>
-        </a>
-    </div>
-    <!-- End Banner Hero -->
-
-
-    <!-- Start Categories of The Month -->
-    <section class="bg-black">
-    <div class="container py-5 ">
-        <div class="row text-center pt-3">
-            <div class="col-lg-6 m-auto">
-            <h1 class="h1 text-danger"><b>New!!! Product</b></h1>
-                <p class="h3 text-white">
-                    Hot!!! New Product
-                </p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12 col-md-4 p-5 mt-3">
-                <a href="#"><img src="./assets/img/product_1.jpg" class="rounded-circle img-fluid border"></a>
-                <h5 class="text-center mt-3 mb-3 text-white">Skate</h5>
-                <p class="text-center"><a class="btn btn-danger">Go Shop</a></p>
-            </div>
-            <div class="col-12 col-md-4 p-5 mt-3">
-                <a href="#"><img src="./assets/img/product/Safety/safe_1.jpg" class="rounded-circle img-fluid border"></a>
-                <h2 class="h5 text-center mt-3 mb-3 text-white">Safety</h2>
-                <p class="text-center"><a class="btn btn-danger">Go Shop</a></p>
-            </div>
-            <div class="col-12 col-md-4 p-5 mt-3">
-                <a href="#"><img src="./assets/img/product/fashion/shirt_1.jpg" class="rounded-circle img-fluid border"></a>
-                <h2 class="h5 text-center mt-3 mb-3 text-white">Fashion</h2>
-                <p class="text-center"><a class="btn btn-danger">Go Shop</a></p>
-            </div>
-        </div>
-    </div>
-    </section>
-    <!-- End Categories of The Month -->
-
-
-    <!-- Start News -->
     <section class="bg-light">
         <div class="container py-5">
             <div class="row py-3">
                 <div class="col-lg-6 ">
-                    <h1 class="h1 text-danger"><b>News</b></h1>
+                    <h1 class="h1 text-black"><b>News</b></h1>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-12 col-md-4 mb-4">
-                    <div class="card h-100">
-                        <a href="shop-single.html">
-                            <img src="./assets/img/new/new1.jpg" class="card-img-top" alt="...">
-                        </a>
-                        <div class="card-body bg-black">                        
-                            <a href="shop-single.html" class="h2 text-decoration-none text-white">Discount All Product 10%</a>
-                            <p class="card-text text-white">
-                                Happy go skateborad day We would like to give Promotion 10% discount on all products sold everywhere in online stores and stores.
-                            <p class="text-muted">Reviews (24)</p>
+            <div class="card h-100">
+                <div class="row no-gutters">
+                    <div class="col-md-4">
+                        <img src="./assets/img/new/new1.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h4 class="card-title">Discount All Product 10%</h4>
+                            <h5 class="card-title">Happy go skate Day !!!</h5>
+                            <p class="card-text">Happy go skateborad day We would like to give Promotion 10% discount on all products sold everywhere in online stores and stores.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-4 mb-4">
-                    <div class="card h-100">
-                        <a href="shop-single.html">
-                            <img src="./assets/img/new/new2.jpg" class="card-img-top" alt="...">
-                        </a>
-                        <div class="card-body bg-black">
-                            <a href="shop-single.html" class="h2 text-decoration-none text-white">Special offer for lockdown</a>
-                            <p class="card-text text-white">
-                                Dreg Skate shop offers a Promotion 10% Discount on all Product sold for Lockdown.
-                            </p>
-                            <p class="text-muted">Reviews (52)</p>
+            </div>
+
+            <div class="card h-100">
+                <div class="row no-gutters">
+                    <div class="col-md-4">
+                        <img src="./assets/img/new/new2.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h4 class="card-title text-danger">Hot Promotion !!!</h4>
+                            <h5 class="card-title">Special offer for lockdown</h5>
+                            <p class="card-text">Dreg Skate shop offers a Promotion 10% Discount on all Product for Lockdown sold everywhere in online stores and stores.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 Day ago</small></p>
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-4 mb-4">
-                    <div class="card h-100">
-                        <a href="shop-single.html">
-                            <img src="./assets/img/new/new3.jpg" class="card-img-top" alt="...">
-                        </a>
-                        <div class="card-body bg-black">
-                            <a href="shop-single.html" class="h2 text-decoration-none text-white">Sign up for free, Get a DG Blackcard</a>
-                            <p class="card-text text-white">
-                                Sing up for free, get a DG Blackcard jusy by Scanning the QR code, Every 100 Baht equal to 1 Point, 100 Point equal to 200 Baht.
-                            </p>
-                            <p class="text-muted">Reviews (74)</p>
+            </div>
+
+            <div class="card h-100">
+                <div class="row no-gutters">
+                    <div class="col-md-4">
+                        <img src="./assets/img/new/new3.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h4 class="card-title">Sign up for free, Get a DG Blackcard</h4>
+                            <p class="card-text">Sing up for free, get a DG Blackcard jusy by Scanning the QR code, Every 100 Baht equal to 1 Point, 100 Point equal to 200 Baht.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 1 Week ago</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card h-100">
+                <div class="row no-gutters">
+                    <div class="col-md-4">
+                        <img src="./assets/img/new/new4.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h4 class="card-title">2 Days only Sale !!! 15% </h4>
+                            <p class="card-text">2 Day only Promotion for work from home for product in brand Sant Cruz, Creature OJ Wheels, Ricta, slimball and Independent Trucks only sale now 15%.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 1 Week ago</small></p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- End News -->
+    <!-- End Banner Hero -->
+
 
 
     <!-- Start Footer -->
