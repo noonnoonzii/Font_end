@@ -131,9 +131,9 @@
     <div class="container py-5 ">
         <div class="row text-center pt-3">
             <div class="col-lg-6 m-auto">
-            <h1 class="h1 text-danger"><b>New!!! Product</b></h1>
+            <h1 class="h1 text-danger"><b>Category Product</b></h1>
                 <p class="h3 text-white">
-                    Hot!!! New Product
+                    Category Product Hit !!!
                 </p>
             </div>
         </div>
