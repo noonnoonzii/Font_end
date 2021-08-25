@@ -27,10 +27,10 @@
                             <a class="nav-link text-white" href="news.php">News</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="contact.html">Contact</a>
+                            <a class="nav-link text-white" href="#tempaltemo_footer">Contact</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="contact.html">About we</a>
+                            <a class="nav-link text-white" href="about.php">About we</a>
                         </li>
                     </ul>
                 </div>
@@ -583,7 +583,7 @@
                     <label class="sr-only" for="subscribeEmail">Email address</label>
                     <div class="input-group mb-2">
                         <input type="text" class="form-control bg-dark border-light" id="subscribeEmail" placeholder="Email address">
-                        <div class="input-group-text btn-success text-light">Subscribe</div>
+                        <div class="input-group-text btn-danger text-light">Subscribe</div>
                     </div>
                 </div>
             </div>

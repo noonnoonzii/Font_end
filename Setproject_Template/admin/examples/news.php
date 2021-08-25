@@ -54,43 +54,43 @@ Coded by www.creative-tim.com
       <div class="sidebar-wrapper">
         <ul class="nav">
           <li class="active ">
-            <a href="./dashboard.html">
+            <a href="./dashboard.php">
               <i class="nc-icon nc-bank"></i>
               <p>Dashboard</p>
             </a>
           </li>
           <li>
-            <a href="./home_pic.html">
+            <a href="./home_pic.php">
               <i class="nc-icon nc-diamond"></i>
               <p>เปลี่ยนพื้นหลัง</p>
             </a>
           </li>
           <li>
-            <a href="./product.html">
+            <a href="./product.php">
               <i class="nc-icon nc-pin-3"></i>
               <p>จัดการสินค้า</p>
             </a>
           </li>
           <li>
-            <a href="./news.html">
+            <a href="./news.php">
               <i class="nc-icon nc-single-02"></i>
               <p>จัดการหน้าข่าวสาร</p>
             </a>
           </li>
           <li>
-            <a href="./type_product.html">
+            <a href="./type_product.php">
               <i class="nc-icon nc-single-02"></i>
               <p>จัดการหน้าประเภทสินค้า</p>
             </a>
           </li>
           <li>
-            <a href="./user.html">
+            <a href="./user.php">
                 <i class="nc-icon nc-caps-small"></i>
                 <p>Profile</p>
             </a>
           </li>
           <li class="active-pro">
-            <a href="./upgrade.html">
+            <a href="./upgrade.php">
               <i class="nc-icon nc-spaceship"></i>
               <p>Upgrade to PRO</p>
             </a>
@@ -168,31 +168,55 @@ Coded by www.creative-tim.com
           <div class="col-md-12">
             <div class="card">
               <div class="card-header">
-                <h4 class="card-title text-danger"> เปลี่ยนภาพลไสด์หน้าหลัก</h4>
+                <h4 class="card-title text-danger">จัดการข่าวสาร</h4>
               </div>
               <div class="card-body">
                 <div class="table-responsive">
-                  <div class="container">
-                    <div class="row">
-                      <div class="col-sm">
-                        <img src="../assets/img/park.jpg">
-                      </div>
-                      <div class="col-sm">
-                        <img src="../assets/img/damir-bosnjak.jpg">
-                      </div>
-                      <div class="col-sm">
-                        <img src="../assets/img/jan-sendereks.jpg">
-                      </div>
-                    </div>
-                    <div class="card-body">
-                      <div class="row text-center">
-                        <div class="update ml-auto mr-auto">
-                          <input type="file" class="form-control-file ml-3" id="exampleFormControlFile1">
-                          <button type="submit" class="btn btn-danger btn-round">บันทึก</button>
-                        </div>
-                      </div>
-                  </div>
-                  </div>
+                  <table class="table">
+                    <thead class="text-primary">
+                      <th>
+                        รูปภาพ
+                      </th>
+                      <th>
+                        หัวข้อข่าวสาร
+                      </th>
+                      <th>
+                        เนื้อหาข่าวสาร
+                      </th>
+                      <th>
+                        Create_at
+                      </th>
+                      <th>
+                          Update_at
+                      </th>
+                        <th>
+                          <a href="add_news.php">
+                            <u class="text-danger">เพิ่มข่าวสาร</u>
+                        </th>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>
+                          news1.jpg
+                        </td>
+                        <td>
+                          Discount All 10%
+                        </td>
+                        <td>
+                        Happy go skateborad day.
+                        </td>
+                        <td>
+                          
+                        </td>
+                        <td>
+
+                        </td>
+                        <th>
+                          <a href="edit_news.php">
+                            <u class="text-danger">แก้ไขข่าวสาร</u>
+                        </th>
+                    </tbody>
+                  </table>
                 </div>
               </div>
             </div>
@@ -216,50 +240,9 @@ Coded by www.creative-tim.com
   <script src="../assets/js/paper-dashboard.min.js?v=2.0.1" type="text/javascript"></script><!-- Paper Dashboard DEMO methods, don't include it in your project! -->
   <script src="../assets/demo/demo.js"></script>
   <script>
-    function SelectText(element) {
-      var doc = document,
-        text = element,
-        range, selection;
-      if (doc.body.createTextRange) {
-        range = document.body.createTextRange();
-        range.moveToElementText(text);
-        range.select();
-      } else if (window.getSelection) {
-        selection = window.getSelection();
-        range = document.createRange();
-        range.selectNodeContents(text);
-        selection.removeAllRanges();
-        selection.addRange(range);
-      }
-    }
-    window.onload = function() {
-      var iconsWrapper = document.getElementById('icons-wrapper'),
-        listItems = iconsWrapper.getElementsByTagName('li');
-      for (var i = 0; i < listItems.length; i++) {
-        listItems[i].onclick = function fun(event) {
-          var selectedTagName = event.target.tagName.toLowerCase();
-          if (selectedTagName == 'p' || selectedTagName == 'em') {
-            SelectText(event.target);
-          } else if (selectedTagName == 'input') {
-            event.target.setSelectionRange(0, event.target.value.length);
-          }
-        }
-
-        var beforeContentChar = window.getComputedStyle(listItems[i].getElementsByTagName('i')[0], '::before').getPropertyValue('content').replace(/'/g, "").replace(/"/g, ""),
-          beforeContent = beforeContentChar.charCodeAt(0).toString(16);
-        var beforeContentElement = document.createElement("em");
-        beforeContentElement.textContent = "\\" + beforeContent;
-        listItems[i].appendChild(beforeContentElement);
-
-        //create input element to copy/paste chart
-        var charCharac = document.createElement('input');
-        charCharac.setAttribute('type', 'text');
-        charCharac.setAttribute('maxlength', '1');
-        charCharac.setAttribute('readonly', 'true');
-        charCharac.setAttribute('value', beforeContentChar);
-        listItems[i].appendChild(charCharac);
-      }
-    }
+    $(document).ready(function() {
+      demo.initGoogleMaps();
+    });
   </script>
 </body>
 

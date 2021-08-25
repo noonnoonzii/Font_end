@@ -21,7 +21,7 @@ Coded by www.creative-tim.com
   <link rel="icon" type="image/png" href="../assets/img/favicon.png">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <title>
-    BackEnd DregSkateshop
+    Paper Dashboard 2 by Creative Tim
   </title>
   <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
   <!--     Fonts and icons     -->
@@ -39,13 +39,13 @@ Coded by www.creative-tim.com
     <div class="sidebar" data-color="white" data-active-color="danger">
       <div class="logo">
         <a href="https://www.creative-tim.com" class="simple-text logo-mini">
-          <div class="logo-image-small btn-rounded">
+          <div class="logo-image-small">
             <img src="../assets/img/logo.jpg">
           </div>
           <!-- <p>CT</p> -->
         </a>
         <a href="https://www.creative-tim.com" class="simple-text logo-normal">
-          Dreg Skateshop
+          Drag SkateShop
           <!-- <div class="logo-image-big">
             <img src="../assets/img/logo-big.png">
           </div> -->
@@ -54,43 +54,43 @@ Coded by www.creative-tim.com
       <div class="sidebar-wrapper">
         <ul class="nav">
           <li class="active ">
-            <a href="./dashboard.html">
+            <a href="./dashboard.php">
               <i class="nc-icon nc-bank"></i>
               <p>Dashboard</p>
             </a>
           </li>
           <li>
-            <a href="./home_pic.html">
+            <a href="./home_pic.php">
               <i class="nc-icon nc-diamond"></i>
               <p>เปลี่ยนพื้นหลัง</p>
             </a>
           </li>
           <li>
-            <a href="./product.html">
+            <a href="./product.php">
               <i class="nc-icon nc-pin-3"></i>
               <p>จัดการสินค้า</p>
             </a>
           </li>
           <li>
-            <a href="./news.html">
+            <a href="./news.php">
               <i class="nc-icon nc-single-02"></i>
               <p>จัดการหน้าข่าวสาร</p>
             </a>
           </li>
           <li>
-            <a href="./type_product.html">
+            <a href="./type_product.php">
               <i class="nc-icon nc-single-02"></i>
               <p>จัดการหน้าประเภทสินค้า</p>
             </a>
-          </li>>
+          </li>
           <li>
-            <a href="./user.html">
+            <a href="./user.php">
                 <i class="nc-icon nc-caps-small"></i>
                 <p>Profile</p>
             </a>
           </li>
           <li class="active-pro">
-            <a href="./upgrade.html">
+            <a href="./upgrade.php">
               <i class="nc-icon nc-spaceship"></i>
               <p>Upgrade to PRO</p>
             </a>
@@ -163,45 +163,27 @@ Coded by www.creative-tim.com
         </div>
       </nav>
       <!-- End Navbar -->
-    <div class="content">
-            <div class="card card-user">
-                <div class="card-header">
-                <h5 class="card-title text-danger">เพิ่มสินค้า</h5>
-                </div>
-                <div class="contriner">
-                    <div class="row">
-                        <div class="col-lg-3 text-center">
-                            <img class="mr-3" src="../assets/img/logo.jpg" style="width: 90px;position: relative; " alt="Generic placeholder image">
-                            <input type="file" class="form-control-file ml-3" id="exampleFormControlFile1">
-
-                        </div>
-                        <div class="col-lg-9">
-                            <div class="col-md-3 px-1">
-                                <div class="form-group">
-                                    <label>ชื่อสินค้า</label>
-                                    <input type="text" class="form-control" placeholder="" value="">
-                                </div>
-                            </div>
-                                <div class="col-md-4 pl-1">
-                                    <div class="form-group">
-                                        <label for="exampleInputEmail1">ประเภทสินค้า</label>
-                                        <input type="email" class="form-control" placeholder="">
-                                    </div>
-                                </div>
-                                <div class="col-md-4 pl-1">
-                                    <div class="form-group">
-                                        <label for="exampleInputEmail1">ราคา</label>
-                                        <input type="email" class="form-control" placeholder="">
-                                    </div>
-                                        <button type="submit" class="btn btn-danger btn-round">บันทึก</button>
-                                </div>
-                        </div>
+      <div class="content">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="card">
+              <div class="card-header">
+                <h4 class="card-title text-danger">จัดการประเภทสินค้า</h4>
+              </div>
+              <div class="card-body">
+                <div class="table-responsive">
+                    <div class="form-group">
+                      <label for="exampleInputPassword1">ชื่อประเภทสินค้า</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1">
                     </div>
+          
+                    <button type="submit" class="btn btn-danger btn-round">บันทึก</button>
                 </div>
-            </div>    
-    </div>       
-
-
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
   <!--   Core JS Files   -->
   <script src="../assets/js/core/jquery.min.js"></script>
   <script src="../assets/js/core/popper.min.js"></script>

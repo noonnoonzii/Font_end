@@ -54,43 +54,43 @@ Coded by www.creative-tim.com
       <div class="sidebar-wrapper">
         <ul class="nav">
           <li class="active ">
-            <a href="./dashboard.html">
+            <a href="./dashboard.php">
               <i class="nc-icon nc-bank"></i>
               <p>Dashboard</p>
             </a>
           </li>
           <li>
-            <a href="./home_pic.html">
+            <a href="./home_pic.php">
               <i class="nc-icon nc-diamond"></i>
               <p>เปลี่ยนพื้นหลัง</p>
             </a>
           </li>
           <li>
-            <a href="./product.html">
+            <a href="./product.php">
               <i class="nc-icon nc-pin-3"></i>
               <p>จัดการสินค้า</p>
             </a>
           </li>
           <li>
-            <a href="./news.html">
+            <a href="./news.php">
               <i class="nc-icon nc-single-02"></i>
               <p>จัดการหน้าข่าวสาร</p>
             </a>
           </li>
           <li>
-            <a href="./type_product.html">
+            <a href="./type_product.php">
               <i class="nc-icon nc-single-02"></i>
               <p>จัดการหน้าประเภทสินค้า</p>
             </a>
           </li>
           <li>
-            <a href="./user.html">
+            <a href="./user.php">
                 <i class="nc-icon nc-caps-small"></i>
                 <p>Profile</p>
             </a>
           </li>
           <li class="active-pro">
-            <a href="./upgrade.html">
+            <a href="./upgrade.php">
               <i class="nc-icon nc-spaceship"></i>
               <p>Upgrade to PRO</p>
             </a>
@@ -164,50 +164,26 @@ Coded by www.creative-tim.com
       </nav>
       <!-- End Navbar -->
       <div class="content">
-            <div class="card card-user">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="card">
               <div class="card-header">
-                <h5 class="card-title text-danger">แก้ไขหน้าข่าวสาร</h5>
+                <h4 class="card-title text-danger">จัดการประเภทสินค้า</h4>
               </div>
-          <form>
-              <div class="row">
-                <div class="col-3">
-                  <img class="mr-3" src="../assets/img/logo.jpg" style="width: 100%;position: relative; " alt="Generic placeholder image">
-                  <input type="file" class="form-control-file ml-3" id="exampleFormControlFile1">
-
-                </div>
-
-                <div class="col-9">
+              <div class="card-body">
+                <div class="table-responsive">
                     <div class="form-group">
-                      <label for="exampleInputEmail1">หัวข้อข่าวสาร</label>
-                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                    </div>
-                    <div class="form-group">
-                      <label for="exampleInputPassword1">เนื้อหาข่าวสาร</label>
+                      <label for="exampleInputPassword1">ชื่อประเภทสินค้า</label>
                       <input type="password" class="form-control" id="exampleInputPassword1">
                     </div>
           
                     <button type="submit" class="btn btn-danger btn-round">บันทึก</button>
-                  </form>
                 </div>
-              </form>
-
-                </div>
-                  <!-- <div class="media-body">
-                    <label class="text-dark"><b>หัวข้อข่าวสาร</b></label>
-                    <input type="text" class="form-control" placeholder="Home Address" value="Melbourne, Australia">
-
-                    <label class="text-dark"><b>เนื้อหาข่าวใหม่</b></label>
-                    <input type="text"  class="form-control" placeholder="Home Address" value="Melbourne, Australia">
-                  <div class="row">
-                    <div class="update ml-auto mr-auto">
-                      <button type="submit" class="btn btn-danger btn-round">บันทึก</button>
-                    </div>
-                  </div>
-            </div> -->
+              </div>
+            </div>
           </div>
-    
-  
-  </div>
+        </div>
+      </div>
   <!--   Core JS Files   -->
   <script src="../assets/js/core/jquery.min.js"></script>
   <script src="../assets/js/core/popper.min.js"></script>

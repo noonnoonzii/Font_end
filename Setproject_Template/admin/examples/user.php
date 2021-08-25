@@ -54,43 +54,43 @@ Coded by www.creative-tim.com
         <div class="sidebar-wrapper">
           <ul class="nav">
             <li class="active ">
-              <a href="./dashboard.html">
+              <a href="./dashboard.php">
                 <i class="nc-icon nc-bank"></i>
                 <p>Dashboard</p>
               </a>
             </li>
             <li>
-              <a href="./home_pic.html">
+              <a href="./home_pic.php">
                 <i class="nc-icon nc-diamond"></i>
                 <p>เปลี่ยนพื้นหลัง</p>
               </a>
             </li>
             <li>
-              <a href="./product.html">
+              <a href="./product.php">
                 <i class="nc-icon nc-pin-3"></i>
                 <p>จัดการสินค้า</p>
               </a>
             </li>
             <li>
-              <a href="./news.html">
+              <a href="./news.php">
                 <i class="nc-icon nc-single-02"></i>
                 <p>จัดการหน้าข่าวสาร</p>
               </a>
             </li>
             <li>
-              <a href="./type_product.html">
+              <a href="./type_product.php">
                 <i class="nc-icon nc-single-02"></i>
                 <p>จัดการประเภทสินค้า</p>
               </a>
             </li>
             <li>
-                <a href="./user.html">
+                <a href="./user.php">
                     <i class="nc-icon nc-caps-small"></i>
                     <p>Profile</p>
                 </a>
             </li>
             <li class="active-pro">
-              <a href="./upgrade.html">
+              <a href="./upgrade.php">
                 <i class="nc-icon nc-spaceship"></i>
                 <p>Upgrade to PRO</p>
               </a>

@@ -54,43 +54,43 @@ Coded by www.creative-tim.com
       <div class="sidebar-wrapper">
         <ul class="nav">
           <li class="active ">
-            <a href="./dashboard.html">
+            <a href="./dashboard.php">
               <i class="nc-icon nc-bank"></i>
               <p>Dashboard</p>
             </a>
           </li>
           <li>
-            <a href="./home_pic.html">
+            <a href="./home_pic.php">
               <i class="nc-icon nc-diamond"></i>
               <p>เปลี่ยนพื้นหลัง</p>
             </a>
           </li>
           <li>
-            <a href="./product.html">
+            <a href="./product.php">
               <i class="nc-icon nc-pin-3"></i>
               <p>จัดการสินค้า</p>
             </a>
           </li>
           <li>
-            <a href="./news.html">
+            <a href="./news.php">
               <i class="nc-icon nc-single-02"></i>
               <p>จัดการหน้าข่าวสาร</p>
             </a>
           </li>
           <li>
-            <a href="./type_product.html">
+            <a href="./type_product.php">
               <i class="nc-icon nc-single-02"></i>
               <p>จัดการหน้าประเภทสินค้า</p>
             </a>
           </li>
           <li>
-            <a href="./user.html">
+            <a href="./user.php">
                 <i class="nc-icon nc-caps-small"></i>
                 <p>Profile</p>
             </a>
           </li>
           <li class="active-pro">
-            <a href="./upgrade.html">
+            <a href="./upgrade.php">
               <i class="nc-icon nc-spaceship"></i>
               <p>Upgrade to PRO</p>
             </a>
@@ -168,47 +168,195 @@ Coded by www.creative-tim.com
           <div class="col-md-12">
             <div class="card">
               <div class="card-header">
-                <h4 class="card-title text-danger">จัดการสินค้า</h4>
+                <h4 class="card-title text-danger">จัดการประเภทสินค้า</h4>
               </div>
               <div class="card-body">
                 <div class="table-responsive">
                   <table class="table">
                     <thead class="text-primary">
                       <th>
-                        รูปภาพ
+                        ชื่อประเภทสินค้า
                       </th>
                       <th>
-                        ชื่อสินค้า
+                        Create_at
                       </th>
                       <th>
-                        ประเภท
+                        Update_at
                       </th>
-                      <th>
-                        ราคา
-                      </th>
-                        <th>
-                          <a href="add_product.html">
-                            <u class="text-danger">เพิ่มสินค้า</u>
+                        <th class ="text-right">
+                            <a href="add_category.php" class="btn btn-primary btn-round text-light">เพิ่มสินค้า</a>
                         </th>
                     </thead>
                     <tbody>
-                      <tr>
-                        <td>
-                          Dakota Rice
-                        </td>
-                        <td>
-                          Niger
-                        </td>
-                        <td>
-                          Oud-Turnhout
-                        </td>
-                        <td>
-                          $36,738
-                        </td>
-                        <th>
-                          <a href="edit_product.html">
-                            <u class="text-danger">แก้ไขสินค้า</u>
-                        </th>
+
+                        <tr>
+                            <td>
+                                Decks
+                            </td>
+                            <td>
+
+                            </td>
+                            <td>
+
+                            </td>
+                            <th class ="text-right">
+                                <a href="edit_category.php" type="submit" class="btn btn-warning btn-round">Edit</a>
+                                <a  type="submit" class="btn btn-danger btn-round">Delete</a>
+                            </th>
+                            <th>
+                        </tr>
+                        
+                        <tr>
+                            <td>
+                                Shoes
+                            </td>
+                            <td>
+
+                            </td>
+                            <td>
+  
+                            </td>
+                            <th class ="text-right">
+                                <a href="edit_category.php" type="submit" class="btn btn-warning btn-round">Edit</a>
+
+                                <a type="submit" class="btn btn-danger btn-round">Delete</a>
+                            </th>
+                        </tr>
+                        
+                        <tr>
+                            <td>
+                                T-Shirts
+                            </td>
+                            <td>
+
+                            </td>
+                            <td>
+                              
+                            </td>
+                            <th class ="text-right">
+                                <a href="edit_category.php" type="submit" class="btn btn-warning btn-round">Edit</a>
+                            
+                                <a type="submit" class="btn btn-danger btn-round">Delete</a>
+                            </th>
+                        </tr>
+                        
+                        <tr>
+                            <td>
+                                Complete Skateboards
+                            </td>
+                            <td>
+
+                            </td>
+                            <td>
+                              
+                            </td>
+                            <th class ="text-right">
+                                <a href="edit_category.php" type="submit" class="btn btn-warning btn-round">Edit</a>
+                            
+                                <a type="submit" class="btn btn-danger btn-round">Delete</a>
+                            </th>
+                        </tr>
+                        
+                        <tr>
+                            <td>
+                                Trucks
+                            </td>
+                            <td>
+
+                            </td>
+                            <td>
+                              
+                            </td>
+                            <th class ="text-right">
+                                <a href="edit_category.php" type="submit" class="btn btn-warning btn-round">Edit</a>
+                            
+                                <a type="submit" class="btn btn-danger btn-round">Delete</a>
+                            </th>
+                        </tr>
+                        
+                        <tr>
+                            <td>
+                                Wheels
+                            </td>
+                            <td>
+
+                            </td>
+                            <td>
+                              
+                            </td>
+                            <th class ="text-right">
+                                <a href="edit_category.php" type="submit" class="btn btn-warning btn-round">Edit</a>
+                            
+                                <a type="submit" class="btn btn-danger btn-round">Delete</a>
+                            </th>
+                        </tr>
+                        
+                        <tr>
+                            <td>
+                                bearings
+                            </td>
+                            <td>
+
+                            </td>
+                            <td>
+                              
+                            </td>
+                            <th class ="text-right">
+                                <a href="edit_category.php" type="submit" class="btn btn-warning btn-round">Edit</a>
+                            
+                                <a type="submit" class="btn btn-danger btn-round">Delete</a>
+                            </th>
+                        </tr>
+                        
+                        <tr>
+                            <td>
+                                Grip Tape
+                            </td>
+                            <td>
+
+                            </td>
+                            <td>
+                              
+                            </td>
+                            <th class ="text-right">
+                                <a href="edit_category.php" type="submit" class="btn btn-warning btn-round">Edit</a>
+                            
+                                <a type="submit" class="btn btn-danger btn-round">Delete</a>
+                            </th>
+                        </tr>
+                        
+                        <tr>
+                            <td>
+                                Hardware
+                            </td>
+                            <td>
+
+                            </td>
+                            <td>
+                              
+                            </td>
+                            <th class ="text-right">
+                                <a href="edit_category.php" type="submit" class="btn btn-warning btn-round">Edit</a>
+                                <a type="submit" class="btn btn-danger btn-round">Delete</a>
+                            </th>
+                        </tr>
+                        
+                        <tr>
+                            <td>
+                                Accessories
+                            </td>
+                            <td>
+
+                            </td>
+                            <td>
+                              
+                            </td>
+                            <th class ="text-right">
+                                <a href="edit_category.php" type="submit" class="btn btn-warning btn-round">Edit</a>
+                                <a type="submit" class="btn btn-danger btn-round">Delete</a>
+                            </th>
+                        </tr>
+                        
                     </tbody>
                   </table>
                 </div>

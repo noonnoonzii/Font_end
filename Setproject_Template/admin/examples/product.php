@@ -54,43 +54,43 @@ Coded by www.creative-tim.com
       <div class="sidebar-wrapper">
         <ul class="nav">
           <li class="active ">
-            <a href="./dashboard.html">
+            <a href="./dashboard.php">
               <i class="nc-icon nc-bank"></i>
               <p>Dashboard</p>
             </a>
           </li>
           <li>
-            <a href="./home_pic.html">
+            <a href="./home_pic.php">
               <i class="nc-icon nc-diamond"></i>
               <p>เปลี่ยนพื้นหลัง</p>
             </a>
           </li>
           <li>
-            <a href="./product.html">
+            <a href="./product.php">
               <i class="nc-icon nc-pin-3"></i>
               <p>จัดการสินค้า</p>
             </a>
           </li>
           <li>
-            <a href="./news.html">
+            <a href="./news.php">
               <i class="nc-icon nc-single-02"></i>
               <p>จัดการหน้าข่าวสาร</p>
             </a>
           </li>
           <li>
-            <a href="./type_product.html">
+            <a href="./type_product.php">
               <i class="nc-icon nc-single-02"></i>
               <p>จัดการหน้าประเภทสินค้า</p>
             </a>
           </li>
           <li>
-            <a href="./user.html">
+            <a href="./user.php">
                 <i class="nc-icon nc-caps-small"></i>
                 <p>Profile</p>
             </a>
           </li>
           <li class="active-pro">
-            <a href="./upgrade.html">
+            <a href="./upgrade.php">
               <i class="nc-icon nc-spaceship"></i>
               <p>Upgrade to PRO</p>
             </a>
@@ -163,45 +163,62 @@ Coded by www.creative-tim.com
         </div>
       </nav>
       <!-- End Navbar -->
-    <div class="content">
-            <div class="card card-user">
-                <div class="card-header">
-                <h5 class="card-title text-danger">แก้ไขสินค้า</h5>
+      <div class="content">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="card">
+              <div class="card-header">
+                <h4 class="card-title text-danger">จัดการสินค้า</h4>
+              </div>
+              <div class="card-body">
+                <div class="table-responsive">
+                  <table class="table">
+                    <thead class="text-primary">
+                      <th>
+                        รูปภาพ
+                      </th>
+                      <th>
+                        ชื่อสินค้า
+                      </th>
+                      <th>
+                        ประเภท
+                      </th>
+                      <th>
+                        ราคา
+                      </th>
+                        <th>
+                          <a href="add_product.php">
+                            <u class="text-danger">เพิ่มสินค้า</u>
+                        </th>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>
+                          Dakota Rice
+                        </td>
+                        <td>
+                          Niger
+                        </td>
+                        <td>
+                          Oud-Turnhout
+                        </td>
+                        <td>
+                          $36,738
+                        </td>
+                        <th>
+                          <a href="edit_product.php">
+                            <u class="text-danger">แก้ไขสินค้า</u>
+                        </th>
+                    </tbody>
+                  </table>
                 </div>
-                <div class="contriner">
-                    <div class="row">
-                        <div class="col-lg-3 text-center">
-                            <img class="mr-3" src="../assets/img/logo.jpg" style="width: 90px;position: relative; " alt="Generic placeholder image">
-                            <input type="file" class="form-control-file ml-3" id="exampleFormControlFile1">
-
-                        </div>
-                        <div class="col-lg-9">
-                            <div class="col-md-3 px-1">
-                                <div class="form-group">
-                                    <label>ชื่อสินค้า</label>
-                                    <input type="text" class="form-control" placeholder="" value="">
-                                </div>
-                            </div>
-                                <div class="col-md-4 pl-1">
-                                    <div class="form-group">
-                                        <label for="exampleInputEmail1">ประเภทสินค้า</label>
-                                        <input type="email" class="form-control" placeholder="">
-                                    </div>
-                                </div>
-                                <div class="col-md-4 pl-1">
-                                    <div class="form-group">
-                                        <label for="exampleInputEmail1">ราคา</label>
-                                        <input type="email" class="form-control" placeholder="">
-                                    </div>
-                                        <button type="submit" class="btn btn-danger btn-round">บันทึก</button>
-                                </div>
-                        </div>
-                    </div>
-                </div>
-            </div>    
-    </div>       
-
-
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
   <!--   Core JS Files   -->
   <script src="../assets/js/core/jquery.min.js"></script>
   <script src="../assets/js/core/popper.min.js"></script>
@@ -216,6 +233,11 @@ Coded by www.creative-tim.com
   <!-- Control Center for Now Ui Dashboard: parallax effects, scripts for the example pages etc -->
   <script src="../assets/js/paper-dashboard.min.js?v=2.0.1" type="text/javascript"></script><!-- Paper Dashboard DEMO methods, don't include it in your project! -->
   <script src="../assets/demo/demo.js"></script>
+  <script>
+    $(document).ready(function() {
+      demo.initGoogleMaps();
+    });
+  </script>
 </body>
 
 </html>

@@ -1503,6 +1503,13 @@ body {
 .main {
   position: relative;
   background: #FFFFFF; }
+.custom-file-upload {
+    display: inline-block;
+    color: #f5f5f5 ;
+    background-color: #fbc658;
+    padding: 6px 12px;
+    cursor: pointer;
+  }
 
 /* Animations */
 .nav-pills .nav-link,

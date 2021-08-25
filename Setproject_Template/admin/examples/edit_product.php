@@ -54,43 +54,43 @@ Coded by www.creative-tim.com
       <div class="sidebar-wrapper">
         <ul class="nav">
           <li class="active ">
-            <a href="./dashboard.html">
+            <a href="./dashboard.php">
               <i class="nc-icon nc-bank"></i>
               <p>Dashboard</p>
             </a>
           </li>
           <li>
-            <a href="./home_pic.html">
+            <a href="./home_pic.php">
               <i class="nc-icon nc-diamond"></i>
               <p>เปลี่ยนพื้นหลัง</p>
             </a>
           </li>
           <li>
-            <a href="./product.html">
+            <a href="./product.php">
               <i class="nc-icon nc-pin-3"></i>
               <p>จัดการสินค้า</p>
             </a>
           </li>
           <li>
-            <a href="./news.html">
+            <a href="./news.php">
               <i class="nc-icon nc-single-02"></i>
               <p>จัดการหน้าข่าวสาร</p>
             </a>
           </li>
           <li>
-            <a href="./type_product.html">
+            <a href="./type_product.php">
               <i class="nc-icon nc-single-02"></i>
-              <p>จัดการประเภทสินค้า</p>
+              <p>จัดการหน้าประเภทสินค้า</p>
             </a>
           </li>
           <li>
-              <a href="./user.html">
-                  <i class="nc-icon nc-caps-small"></i>
-                  <p>Profile</p>
-              </a>
+            <a href="./user.php">
+                <i class="nc-icon nc-caps-small"></i>
+                <p>Profile</p>
+            </a>
           </li>
           <li class="active-pro">
-            <a href="./upgrade.html">
+            <a href="./upgrade.php">
               <i class="nc-icon nc-spaceship"></i>
               <p>Upgrade to PRO</p>
             </a>
@@ -163,102 +163,45 @@ Coded by www.creative-tim.com
         </div>
       </nav>
       <!-- End Navbar -->
-      <div class="content">
-        <div class="row">
-          <div class="col-md-8 ml-auto mr-auto">
-            <div class="card card-upgrade">
-              <div class="card-header text-center">
-                <h4 class="card-title">Paper Dashboard PRO</h3>
-                  <p class="card-category">Are you looking for more components? Please check our Premium Version of Paper Dashboard PRO.</p>
-              </div>
-              <div class="card-body">
-                <div class="table-responsive table-upgrade">
-                  <table class="table">
-                    <thead>
-                      <th></th>
-                      <th class="text-center">Free</th>
-                      <th class="text-center">PRO</th>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td>Components</td>
-                        <td class="text-center">16</td>
-                        <td class="text-center">160</td>
-                      </tr>
-                      <tr>
-                        <td>Plugins</td>
-                        <td class="text-center">4</td>
-                        <td class="text-center">13</td>
-                      </tr>
-                      <tr>
-                        <td>Example Pages</td>
-                        <td class="text-center">7</td>
-                        <td class="text-center">27</td>
-                      </tr>
-                      <tr>
-                        <td>Login, Register, Pricing, Lock Pages</td>
-                        <td class="text-center"><i class="nc-icon nc-simple-remove text-danger"></i></td>
-                        <td class="text-center"><i class="nc-icon nc-check-2 text-success"></i></td>
-                      </tr>
-                      <tr>
-                        <td>DataTables, VectorMap, SweetAlert, Wizard, jQueryValidation, FullCalendar etc...</td>
-                        <td class="text-center"><i class="nc-icon nc-simple-remove text-danger"></i></td>
-                        <td class="text-center"><i class="nc-icon nc-check-2 text-success"></i></td>
-                      </tr>
-                      <tr>
-                        <td>Mini Sidebar</td>
-                        <td class="text-center"><i class="nc-icon nc-simple-remove text-danger"></i></td>
-                        <td class="text-center"><i class="nc-icon nc-check-2 text-success"></i></td>
-                      </tr>
-                      <tr>
-                        <td>Premium Support</td>
-                        <td class="text-center"><i class="nc-icon nc-simple-remove text-danger"></i></td>
-                        <td class="text-center"><i class="nc-icon nc-check-2 text-success"></i></td>
-                      </tr>
-                      <tr>
-                        <td></td>
-                        <td class="text-center">Free</td>
-                        <td class="text-center">Just $39</td>
-                      </tr>
-                      <tr>
-                        <td class="text-center"></td>
-                        <td class="text-center">
-                          <a href="#" class="btn btn-round btn-default disabled">Current Version</a>
-                        </td>
-                        <td class="text-center">
-                          <a target="_blank" href="https://www.creative-tim.com/product/paper-dashboard-2-pro?ref=pd-free-upgrade-live" class="btn btn-round btn-primary">Upgrade to PRO</a>
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
+    <div class="content">
+            <div class="card card-user">
+                <div class="card-header">
+                <h5 class="card-title text-danger">แก้ไขสินค้า</h5>
                 </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <footer class="footer footer-black  footer-white ">
-        <div class="container-fluid">
-          <div class="row">
-            <nav class="footer-nav">
-              <ul>
-                <li><a href="https://www.creative-tim.com" target="_blank">Creative Tim</a></li>
-                <li><a href="https://www.creative-tim.com/blog" target="_blank">Blog</a></li>
-                <li><a href="https://www.creative-tim.com/license" target="_blank">Licenses</a></li>
-              </ul>
-            </nav>
-            <div class="credits ml-auto">
-              <span class="copyright">
-                © <script>
-                  document.write(new Date().getFullYear())
-                </script>, made with <i class="fa fa-heart heart"></i> by Creative Tim
-              </span>
-            </div>
-          </div>
-        </div>
-      </footer>
-    </div>
-  </div>
+                <div class="contriner">
+                    <div class="row">
+                        <div class="col-lg-3 text-center">
+                            <img class="mr-3" src="../assets/img/logo.jpg" style="width: 90px;position: relative; " alt="Generic placeholder image">
+                            <input type="file" class="form-control-file ml-3" id="exampleFormControlFile1">
+
+                        </div>
+                        <div class="col-lg-9">
+                            <div class="col-md-3 px-1">
+                                <div class="form-group">
+                                    <label>ชื่อสินค้า</label>
+                                    <input type="text" class="form-control" placeholder="" value="">
+                                </div>
+                            </div>
+                                <div class="col-md-4 pl-1">
+                                    <div class="form-group">
+                                        <label for="exampleInputEmail1">ประเภทสินค้า</label>
+                                        <input type="email" class="form-control" placeholder="">
+                                    </div>
+                                </div>
+                                <div class="col-md-4 pl-1">
+                                    <div class="form-group">
+                                        <label for="exampleInputEmail1">ราคา</label>
+                                        <input type="email" class="form-control" placeholder="">
+                                    </div>
+                                        <button type="submit" class="btn btn-danger btn-round">บันทึก</button>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+    </div>       
+
+
   <!--   Core JS Files   -->
   <script src="../assets/js/core/jquery.min.js"></script>
   <script src="../assets/js/core/popper.min.js"></script>
