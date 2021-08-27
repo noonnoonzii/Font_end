@@ -62,25 +62,25 @@ Coded by www.creative-tim.com
           <li>
             <a href="./home_pic.php">
               <i class="nc-icon nc-diamond"></i>
-              <p>เปลี่ยนพื้นหลัง</p>
+              <p>Change Home Picture</p>
             </a>
           </li>
           <li>
             <a href="./product.php">
               <i class="nc-icon nc-pin-3"></i>
-              <p>จัดการสินค้า</p>
+              <p>Product</p>
             </a>
           </li>
           <li>
             <a href="./news.php">
               <i class="nc-icon nc-single-02"></i>
-              <p>จัดการหน้าข่าวสาร</p>
+              <p>News</p>
             </a>
           </li>
           <li>
             <a href="./type_product.php">
               <i class="nc-icon nc-single-02"></i>
-              <p>จัดการหน้าประเภทสินค้า</p>
+              <p>Category</p>
             </a>
           </li>
           <li>
@@ -168,27 +168,28 @@ Coded by www.creative-tim.com
           <div class="col-md-12">
             <div class="card">
               <div class="card-header">
-                <h4 class="card-title text-danger">จัดการสินค้า</h4>
+                <h4 class="card-title text-danger">Manage Product</h4>
               </div>
               <div class="card-body">
                 <div class="table-responsive">
                   <table class="table">
                     <thead class="text-primary">
                       <th>
-                        รูปภาพ
+                        Image
                       </th>
                       <th>
-                        ชื่อสินค้า
+                        Name
                       </th>
                       <th>
-                        ประเภท
+                        Category
                       </th>
                       <th>
-                        ราคา
+                        Price
                       </th>
-                        <th>
-                          <a href="add_product.php">
-                            <u class="text-danger">เพิ่มสินค้า</u>
+                        <th class="text-left">
+                          <a href="add_product.php" class="btn btn-primary btn-round"> 
+                            ADD
+                          </a>
                         </th>
                     </thead>
                     <tbody>
@@ -205,9 +206,11 @@ Coded by www.creative-tim.com
                         <td>
                           $36,738
                         </td>
-                        <th>
-                          <a href="edit_product.php">
-                            <u class="text-danger">แก้ไขสินค้า</u>
+                        <th class="text-left">
+                          <a href="edit_product.php" class="btn btn-warning btn-round">
+                            Edit
+                          </a>
+                          <button class="btn btn-danger btn-round">Delete</button>
                         </th>
                     </tbody>
                   </table>

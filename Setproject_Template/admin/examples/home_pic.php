@@ -62,25 +62,25 @@ Coded by www.creative-tim.com
           <li>
             <a href="./home_pic.php">
               <i class="nc-icon nc-diamond"></i>
-              <p>เปลี่ยนพื้นหลัง</p>
+              <p>Change Home Picture</p>
             </a>
           </li>
           <li>
             <a href="./product.php">
               <i class="nc-icon nc-pin-3"></i>
-              <p>จัดการสินค้า</p>
+              <p>Product</p>
             </a>
           </li>
           <li>
             <a href="./news.php">
               <i class="nc-icon nc-single-02"></i>
-              <p>จัดการหน้าข่าวสาร</p>
+              <p>News</p>
             </a>
           </li>
           <li>
             <a href="./type_product.php">
               <i class="nc-icon nc-single-02"></i>
-              <p>จัดการหน้าประเภทสินค้า</p>
+              <p>Category</p>
             </a>
           </li>
           <li>
@@ -168,7 +168,7 @@ Coded by www.creative-tim.com
           <div class="col-md-12">
             <div class="card">
               <div class="card-header">
-                <h4 class="card-title text-danger"> เปลี่ยนภาพลไสด์หน้าหลัก</h4>
+                <h4 class="card-title text-danger"> Change Picture Slide </h4>
               </div>
               <div class="card-body">
                 <div class="table-responsive">
@@ -196,7 +196,7 @@ Coded by www.creative-tim.com
           <div class="col-md-12">
             <div class="card">
               <div class="card-header">
-                <h4 class="card-title">จัดการรูปภาพ</h4>
+                <h4 class="card-title">Manage Picture</h4>
               </div>
               <div class="card-body">
                 <div class="table">

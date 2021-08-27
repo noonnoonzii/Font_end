@@ -62,25 +62,25 @@ Coded by www.creative-tim.com
           <li>
             <a href="./home_pic.php">
               <i class="nc-icon nc-diamond"></i>
-              <p>เปลี่ยนพื้นหลัง</p>
+              <p>Change Home Picture</p>
             </a>
           </li>
           <li>
             <a href="./product.php">
               <i class="nc-icon nc-pin-3"></i>
-              <p>จัดการสินค้า</p>
+              <p>Product</p>
             </a>
           </li>
           <li>
             <a href="./news.php">
               <i class="nc-icon nc-single-02"></i>
-              <p>จัดการหน้าข่าวสาร</p>
+              <p>News</p>
             </a>
           </li>
           <li>
             <a href="./type_product.php">
               <i class="nc-icon nc-single-02"></i>
-              <p>จัดการหน้าประเภทสินค้า</p>
+              <p>Category</p>
             </a>
           </li>
           <li>
@@ -168,14 +168,14 @@ Coded by www.creative-tim.com
           <div class="col-md-12">
             <div class="card">
               <div class="card-header">
-                <h4 class="card-title text-danger">จัดการประเภทสินค้า</h4>
+                <h4 class="card-title text-danger">Manage Category</h4>
               </div>
               <div class="card-body">
                 <div class="table-responsive">
                   <table class="table">
                     <thead class="text-primary">
                       <th>
-                        ชื่อประเภทสินค้า
+                        Category Name
                       </th>
                       <th>
                         Create_at
@@ -183,8 +183,8 @@ Coded by www.creative-tim.com
                       <th>
                         Update_at
                       </th>
-                        <th class ="text-right">
-                            <a href="add_category.php" class="btn btn-primary btn-round text-light">เพิ่มสินค้า</a>
+                        <th class ="text-left">
+                            <a href="add_category.php" class="btn btn-primary btn-round text-light">ADD</a>
                         </th>
                     </thead>
                     <tbody>
@@ -199,9 +199,9 @@ Coded by www.creative-tim.com
                             <td>
 
                             </td>
-                            <th class ="text-right">
+                            <th class ="text-left">
                                 <a href="edit_category.php" type="submit" class="btn btn-warning btn-round">Edit</a>
-                                <a  type="submit" class="btn btn-danger btn-round">Delete</a>
+                                <button  type="submit" class="btn btn-danger btn-round">Delete</button>
                             </th>
                             <th>
                         </tr>
@@ -216,10 +216,10 @@ Coded by www.creative-tim.com
                             <td>
   
                             </td>
-                            <th class ="text-right">
+                            <th class ="text-left">
                                 <a href="edit_category.php" type="submit" class="btn btn-warning btn-round">Edit</a>
 
-                                <a type="submit" class="btn btn-danger btn-round">Delete</a>
+                                <button type="submit" class="btn btn-danger btn-round">Delete</button>
                             </th>
                         </tr>
                         
@@ -233,10 +233,10 @@ Coded by www.creative-tim.com
                             <td>
                               
                             </td>
-                            <th class ="text-right">
+                            <th class ="text-left">
                                 <a href="edit_category.php" type="submit" class="btn btn-warning btn-round">Edit</a>
                             
-                                <a type="submit" class="btn btn-danger btn-round">Delete</a>
+                                <button type="submit" class="btn btn-danger btn-round">Delete</button>
                             </th>
                         </tr>
                         
@@ -250,10 +250,10 @@ Coded by www.creative-tim.com
                             <td>
                               
                             </td>
-                            <th class ="text-right">
+                            <th class ="text-left">
                                 <a href="edit_category.php" type="submit" class="btn btn-warning btn-round">Edit</a>
                             
-                                <a type="submit" class="btn btn-danger btn-round">Delete</a>
+                                <button type="submit" class="btn btn-danger btn-round">Delete</button>
                             </th>
                         </tr>
                         
@@ -267,10 +267,10 @@ Coded by www.creative-tim.com
                             <td>
                               
                             </td>
-                            <th class ="text-right">
+                            <th class ="text-left">
                                 <a href="edit_category.php" type="submit" class="btn btn-warning btn-round">Edit</a>
                             
-                                <a type="submit" class="btn btn-danger btn-round">Delete</a>
+                                <button type="submit" class="btn btn-danger btn-round">Delete</button>
                             </th>
                         </tr>
                         
@@ -284,10 +284,10 @@ Coded by www.creative-tim.com
                             <td>
                               
                             </td>
-                            <th class ="text-right">
+                            <th class ="text-left">
                                 <a href="edit_category.php" type="submit" class="btn btn-warning btn-round">Edit</a>
                             
-                                <a type="submit" class="btn btn-danger btn-round">Delete</a>
+                                <button type="submit" class="btn btn-danger btn-round">Delete</button>
                             </th>
                         </tr>
                         
@@ -301,10 +301,10 @@ Coded by www.creative-tim.com
                             <td>
                               
                             </td>
-                            <th class ="text-right">
+                            <th class ="text-left">
                                 <a href="edit_category.php" type="submit" class="btn btn-warning btn-round">Edit</a>
                             
-                                <a type="submit" class="btn btn-danger btn-round">Delete</a>
+                                <button type="submit" class="btn btn-danger btn-round">Delete</button>
                             </th>
                         </tr>
                         
@@ -318,10 +318,10 @@ Coded by www.creative-tim.com
                             <td>
                               
                             </td>
-                            <th class ="text-right">
+                            <th class ="text-left">
                                 <a href="edit_category.php" type="submit" class="btn btn-warning btn-round">Edit</a>
                             
-                                <a type="submit" class="btn btn-danger btn-round">Delete</a>
+                                <button type="submit" class="btn btn-danger btn-round">Delete</button>
                             </th>
                         </tr>
                         
@@ -335,9 +335,9 @@ Coded by www.creative-tim.com
                             <td>
                               
                             </td>
-                            <th class ="text-right">
+                            <th class ="text-left">
                                 <a href="edit_category.php" type="submit" class="btn btn-warning btn-round">Edit</a>
-                                <a type="submit" class="btn btn-danger btn-round">Delete</a>
+                                <button type="submit" class="btn btn-danger btn-round">Delete</button>
                             </th>
                         </tr>
                         
@@ -351,9 +351,9 @@ Coded by www.creative-tim.com
                             <td>
                               
                             </td>
-                            <th class ="text-right">
+                            <th class ="text-left">
                                 <a href="edit_category.php" type="submit" class="btn btn-warning btn-round">Edit</a>
-                                <a type="submit" class="btn btn-danger btn-round">Delete</a>
+                                <button type="submit" class="btn btn-danger btn-round">Delete</button>
                             </th>
                         </tr>
                         

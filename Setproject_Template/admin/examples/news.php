@@ -62,25 +62,25 @@ Coded by www.creative-tim.com
           <li>
             <a href="./home_pic.php">
               <i class="nc-icon nc-diamond"></i>
-              <p>เปลี่ยนพื้นหลัง</p>
+              <p>Change Home Picture</p>
             </a>
           </li>
           <li>
             <a href="./product.php">
               <i class="nc-icon nc-pin-3"></i>
-              <p>จัดการสินค้า</p>
+              <p>Product</p>
             </a>
           </li>
           <li>
             <a href="./news.php">
               <i class="nc-icon nc-single-02"></i>
-              <p>จัดการหน้าข่าวสาร</p>
+              <p>News</p>
             </a>
           </li>
           <li>
             <a href="./type_product.php">
               <i class="nc-icon nc-single-02"></i>
-              <p>จัดการหน้าประเภทสินค้า</p>
+              <p>Category</p>
             </a>
           </li>
           <li>
@@ -168,20 +168,20 @@ Coded by www.creative-tim.com
           <div class="col-md-12">
             <div class="card">
               <div class="card-header">
-                <h4 class="card-title text-danger">จัดการข่าวสาร</h4>
+                <h4 class="card-title text-danger">Manage News</h4>
               </div>
               <div class="card-body">
                 <div class="table-responsive">
                   <table class="table">
                     <thead class="text-primary">
                       <th>
-                        รูปภาพ
+                        Image
                       </th>
                       <th>
-                        หัวข้อข่าวสาร
+                        Headline
                       </th>
                       <th>
-                        เนื้อหาข่าวสาร
+                        News Body
                       </th>
                       <th>
                         Create_at
@@ -189,9 +189,8 @@ Coded by www.creative-tim.com
                       <th>
                           Update_at
                       </th>
-                        <th>
-                          <a href="add_news.php">
-                            <u class="text-danger">เพิ่มข่าวสาร</u>
+                        <th class="text-left">
+                          <a href="add_news.php" class="btn btn-primary btn-round">Add</a>
                         </th>
                     </thead>
                     <tbody>
@@ -211,9 +210,9 @@ Coded by www.creative-tim.com
                         <td>
 
                         </td>
-                        <th>
-                          <a href="edit_news.php">
-                            <u class="text-danger">แก้ไขข่าวสาร</u>
+                        <th class="text-left">
+                          <a href="edit_news.php" class="btn btn-warning btn-round">Edit</a>
+                          <button class="btn btn-danger btn-round">Delete</button>
                         </th>
                     </tbody>
                   </table>
